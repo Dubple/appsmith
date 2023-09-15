@@ -50,7 +50,7 @@ RUN rm -rf \
   /tmp/*
 
 # Define volumes - Service Layer
-VOLUME [ "/appsmith-stacks" ]
+# VOLUME [ "/appsmith-stacks" ]
 
 # ------------------------------------------------------------------------
 ENV TMP /tmp/appsmith
